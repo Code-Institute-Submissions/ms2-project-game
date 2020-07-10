@@ -70,6 +70,10 @@ body {
     background: hsl(39, 92%, 44%);
 }
 
+.back-card:hover {
+    transform: scale(1.1);
+    transition: 5s ease-in-out;
+}
 /* -----------------------------Footer (Credits: Influenced based on research & Code Institute)*/
 
 .footer-label{
