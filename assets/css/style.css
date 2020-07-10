@@ -24,3 +24,8 @@ body {
     font-size: 350%;
     color: #001068;
 }
+
+.game-info {
+    font-family: 'ultra', serif;
+    font-size: 200%;
+}
