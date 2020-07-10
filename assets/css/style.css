@@ -103,8 +103,9 @@ body {
 }
 
 .overlay-msg.visible {
-  display: flex;
-  animation: overlay-grow 500ms forwards;
+    margin-top: 2.4em;
+    display: flex;
+    animation: overlay-grow 500ms forwards;
 }
 
 /* -----------------------------Footer (Credits: Influenced based on research & Code Institute)*/
@@ -116,5 +117,17 @@ body {
     text-align: center;
 }
 
+/*-------------Overlay Animation (Credits: Influenced by Code Institute & Web Dev Simplified Tutorial)*/
+
+@keyframes overlay-grow {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0;
+  }
+  to {
+    background-color: rgba(0, 0, 0, .8);
+    font-size: 3em;
+  }
+}
 
 
