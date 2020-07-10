@@ -9,3 +9,9 @@ html {
 * {
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: hsl(39, 92%, 44%);
+}
