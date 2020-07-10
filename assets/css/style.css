@@ -31,6 +31,22 @@ body {
 
 /* -----------Board-game & Cards Section (Credits: Influenced by Marina-Ferreira & Web Dev Simplified Tutorials)*/
 
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 2px;
+    justify-content: center;
+    margin: 50px;
+    perspective: 500px;
+}
+
+.info-container {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
 .card {
     width: 10em;
     height: 15em;
@@ -45,26 +61,11 @@ body {
 }
 
 .card.visible .back-card {
-  transform: rotateY(0);
-}
-
-.card.visible .front-card {
   transform: rotateY(-180deg);
 }
 
-.info-container {
-    grid-column: 1 / -1;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
-}
-
-.game-container {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 2px;
-    justify-content: center;
-    margin: 50px;
+.card.visible .front-card {
+  transform: rotateY(0);
 }
 
 .front-card,
@@ -77,6 +78,7 @@ body {
     height: 100%;
     background: hsl(39, 92%, 44%);
     backface-visibility: hidden;
+    transition: transform 500ms ease-in-out;
 }
 
 .back-card:hover {
