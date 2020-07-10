@@ -85,6 +85,13 @@ body {
     transform: scale(1.1);
     transition: 5s ease-in-out;
 }
+
+/* ----------------Overlay Contents (Credits: Influenced based on research & Web Dev Simplified Tutorial)*/
+
+.overlay-msg {
+    position: fixed;
+}
+
 /* -----------------------------Footer (Credits: Influenced based on research & Code Institute)*/
 
 .footer-label{
@@ -93,4 +100,6 @@ body {
     padding-bottom: 10px;
     text-align: center;
 }
+
+
 
