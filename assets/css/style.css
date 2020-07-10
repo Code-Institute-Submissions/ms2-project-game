@@ -44,6 +44,10 @@ body {
   transition: transform .25s ease-in-out;
 }
 
+.card{
+  transform: rotateY(180deg);
+}
+
 .info-container {
     grid-column: 1 / -1;
     display: flex;
@@ -68,6 +72,7 @@ body {
     width: 100%;
     height: 100%;
     background: hsl(39, 92%, 44%);
+    backface-visibility: hidden;
 }
 
 .back-card:hover {
