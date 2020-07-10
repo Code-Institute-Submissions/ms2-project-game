@@ -15,3 +15,12 @@ body {
     margin: 0;
     background: hsl(39, 92%, 44%);
 }
+
+/* ---------------------Heading (Credits: Influenced based on research & Web Dev Simplified Tutorial)*/
+
+.game-title {
+    text-align: center;
+    font-family: 'ultra', serif;
+    font-size: 350%;
+    color: #001068;
+}
