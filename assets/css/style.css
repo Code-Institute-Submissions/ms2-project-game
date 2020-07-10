@@ -97,6 +97,7 @@ body {
     display: none;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 
 /* -----------------------------Footer (Credits: Influenced based on research & Code Institute)*/
