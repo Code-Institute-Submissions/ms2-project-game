@@ -126,13 +126,26 @@ body {
 
 @keyframes overlay-grow {
   from {
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 0;
+      background-color: rgba(0, 0, 0, 0);
+      font-size: 0;
   }
+
   to {
-    background-color: rgba(0, 0, 0, .8);
-    font-size: 4em;
+      background-color: rgba(0, 0, 0, .8);
+      font-size: 4em;
   }
+}
+
+/*-------------Media Queries (Credits: Influenced by Code Institute & majorly by Web Dev Simplified Tutorial)*/
+@media (max-width: 600px) {
+    .game-container {
+        grid-template-columns: repeat(2, auto)
+    }
+
+  .info-container {
+      flex-direction: column;
+      align-items: center;
+    }
 }
 
 
