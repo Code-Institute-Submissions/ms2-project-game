@@ -29,3 +29,10 @@ body {
     font-family: 'ultra', serif;
     font-size: 200%;
 }
+
+.card {
+    width: 8em;
+    height: 12em;
+    background: hsl(39, 92%, 44%);
+    border: solid 5px red;
+}
