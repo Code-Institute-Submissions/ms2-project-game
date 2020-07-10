@@ -29,12 +29,19 @@ body {
     font-size: 200%;
 }
 
+/* -----------Board-game & Cards Section (Credits: Influenced by Marina-Ferreira & Web Dev Simplified Tutorials)*/
+
 .card {
     width: 10em;
     height: 15em;
     border: solid 5px red;
     border-radius: 15px;
     position: relative;
+}
+
+.card:active {
+  transform: scale(0.95);
+  transition: transform .25s ease-in-out;
 }
 
 .info-container {
