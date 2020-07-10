@@ -33,6 +33,7 @@ body {
     width: 10em;
     height: 15em;
     border: solid 5px red;
+    border-radius: 15px;
     position: relative;
 }
 
@@ -60,5 +61,14 @@ body {
     width: 100%;
     height: 100%;
     background: hsl(39, 92%, 44%);
+}
+
+/* -----------------------------Footer (Credits: Influenced based on research & Code Institute)*/
+
+.footer-label{
+    font-family: 'ultra', serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
