@@ -103,9 +103,14 @@ body {
 }
 
 .overlay-msg.visible {
-    margin-top: 2.4em;
+    margin-top: 2em;
     display: flex;
+    flex-direction: column;
     animation: overlay-grow 500ms forwards;
+}
+
+.overlay-msg-small {
+    font-size: 0.7em;
 }
 
 /* -----------------------------Footer (Credits: Influenced based on research & Code Institute)*/
@@ -126,7 +131,7 @@ body {
   }
   to {
     background-color: rgba(0, 0, 0, .8);
-    font-size: 3em;
+    font-size: 4em;
   }
 }
 
