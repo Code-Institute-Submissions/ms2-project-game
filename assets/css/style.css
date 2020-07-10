@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap:100,200,300,400,500,600,700');
+
+/*---------------------General (Credits: Influenced based on research & Code Institute)*/
+
+html {
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
