@@ -102,6 +102,11 @@ body {
     font-family: 'ultra', serif;
 }
 
+.overlay-msg.visible {
+  display: flex;
+  animation: overlay-grow 500ms forwards;
+}
+
 /* -----------------------------Footer (Credits: Influenced based on research & Code Institute)*/
 
 .footer-label{
