@@ -15,9 +15,6 @@ function ready() {
     alloverlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
             overlay.classList.remove('visible');
-        
-            let soundControl = new SoundController();
-            soundControl.playMusic();
         });
     });
 
@@ -71,5 +68,13 @@ class FindAMatch {
         this.timer = document.getElementById('time-count')
         this.ticktok = document.getElementById('flips');
         this.soundControl = new SoundController();
+    }
+    //Starts Game when called
+    playGame() {
+        this.totalClicks = 0;
+        this.countDown = this.totalTime;
+        this.verifyCard = null;
+        this.matchedCards = [];
+        this.busy = true;
     }
 }
