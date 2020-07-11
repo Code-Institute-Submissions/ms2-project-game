@@ -24,3 +24,13 @@ function ready() {
         });
     });
 }
+
+class SoundController {
+    constructor() {
+        this.bgMusic = new Audio('assets/sound/bgmusic.mp3');
+        this.flipSound = new Audio('assets/sound/flipSound.mp3');
+        this.matchedSound = new Audio('assets/sound/matched.mp3');
+        this.winnerSound = new Audio('assets/sound/winner.mp3');
+        this.gameOverSound = new Audio('assets/sound/gameOver.mp3');
+    }
+}
