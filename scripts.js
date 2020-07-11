@@ -6,3 +6,15 @@ if (document.readyState == 'loading') {
 } else {
     ready();
 }
+
+//To initialise game and overlays
+function ready() {
+    let alloverlays = Array.from(document.getElementsByClassName('overlay-msg'));
+    let cards = Array.from(document.getElementsByClassName('card'));
+
+    alloverlays.forEach(overlay => {
+        overlay.addEventListener('click', () => {
+            overlay.classList.remove('visible');
+        });
+    });
+}
