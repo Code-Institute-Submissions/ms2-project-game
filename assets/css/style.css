@@ -15,6 +15,11 @@ body {
     background: hsl(39, 92%, 44%);
 }
 
+#play,
+#rules {
+    cursor: pointer;
+}
+
 /* ---------------------Heading (Credits: Influenced based on research & Web Dev Simplified Tutorial)*/
 
 .game-title {
