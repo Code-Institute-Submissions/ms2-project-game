@@ -52,13 +52,16 @@ class FindAMatch {
         this.matchedCards = [];
         this.busy = true;
     }
+    //Allows player to flip cards
     cardFlip(card) {
         if (this.allowedToFlip(card)) {
             this.soundControl.flip();
             this.totalClicks++;
             this.ticktok.innerText = this.totalClicks;
+            card.classList.add('visible');
         }
     }
+
     allowedToFlip(card) {
         return true;
     }
