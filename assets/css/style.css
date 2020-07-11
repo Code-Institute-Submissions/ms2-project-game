@@ -58,6 +58,8 @@ body {
     border: solid 5px red;
     border-radius: 15px;
     position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
 }
 
 .card:active {
