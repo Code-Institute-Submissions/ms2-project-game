@@ -42,4 +42,22 @@ class SoundController {
     playMusic() {
         this.bgMusic.play();
     }
+    stopMusic() {
+        this.bgMusic.pause();
+        this.bgMusic.currentTime = 0;
+    }
+    flip() {
+        this.flipSound.play();
+    }
+    matched() {
+        this.matchedSound.play();
+    }
+    winner() {
+        this.stopMusic();
+        this.winnerSound.play();
+    }
+    gameOver() {
+        this.stopMusic();
+        this.gameOverSound.play();
+    }
 }
