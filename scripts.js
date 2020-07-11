@@ -1,30 +1,5 @@
 /*The codes below were largely influenced by tutorials from personal research and adapted to achieve my desired outcome, please refer to references in the README.md, thank you.:)*/
 
-//Allows HTML page to load first
-if (document.readyState == 'loading') {
-    document.addEventListener('DOMContentLoaded', ready);
-} else {
-    ready();
-}
-
-//To initialise game and overlays
-function ready() {
-    let alloverlays = Array.from(document.getElementsByClassName('overlay-msg'));
-    let cards = Array.from(document.getElementsByClassName('card'));
-
-    alloverlays.forEach(overlay => {
-        overlay.addEventListener('click', () => {
-            overlay.classList.remove('visible');
-        });
-    });
-
-    cards.forEach(card => {
-        card.addEventListener('click', () => {
-            game.cardFlip(card);
-        });
-    });
-}
-
 //The Sound Control Zone
 class SoundController {
     constructor() {
@@ -65,7 +40,7 @@ class FindAMatch {
         this.cardsArray = cards;
         this.totalTime = totalTime;
         this.countDown = totalTime;
-        this.timer = document.getElementById('time-count')
+        this.timer = document.getElementById('time-count');
         this.ticktok = document.getElementById('flips');
         this.soundControl = new SoundController();
     }
@@ -77,4 +52,43 @@ class FindAMatch {
         this.matchedCards = [];
         this.busy = true;
     }
+    cardFlip(card) {
+        if (this.allowedToFlip(card)) {
+            this.soundControl.flip();
+        }
+    }
+    allowedToFlip(card) {
+        return true;
+    }
 }
+
+//Allows HTML page to load first
+if (document.readyState == 'loading') {
+    document.addEventListener('DOMContentLoaded', ready);
+} else {
+    ready();
+}
+
+   //To initialise game and overlays
+function ready() {
+    let alloverlays = Array.from(document.getElementsByClassName('overlay-msg'));
+    let cards = Array.from(document.getElementsByClassName('card'));
+    let game = new FindAMatch(120, cards);
+
+    alloverlays.forEach(overlay => {
+        overlay.addEventListener('click', () => {
+            overlay.classList.remove('visible');
+             let soundControl = new SoundController();
+            soundControl.playMusic();
+
+            game.playGame();
+        });
+    });
+
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            game.cardFlip(card);
+        });
+    });
+}
+
