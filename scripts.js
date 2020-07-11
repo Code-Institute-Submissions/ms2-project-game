@@ -15,6 +15,9 @@ function ready() {
     alloverlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
             overlay.classList.remove('visible');
+        
+            let soundControl = new SoundController();
+            soundControl.playMusic();
         });
     });
 
@@ -25,6 +28,7 @@ function ready() {
     });
 }
 
+//The Sound Control Zone
 class SoundController {
     constructor() {
         this.bgMusic = new Audio('assets/sound/bgmusic.mp3');
@@ -32,5 +36,10 @@ class SoundController {
         this.matchedSound = new Audio('assets/sound/matched.mp3');
         this.winnerSound = new Audio('assets/sound/winner.mp3');
         this.gameOverSound = new Audio('assets/sound/gameOver.mp3');
+        this.bgMusic.volume = 0.2;
+        this.bgMusic.loop = true;
+    }
+    playMusic() {
+        this.bgMusic.play();
     }
 }
