@@ -61,3 +61,15 @@ class SoundController {
         this.gameOverSound.play();
     }
 }
+
+//For the Game Activities
+class FindAMatch {
+    constructor(totalTime, cards) {
+        this.cardsArray = cards;
+        this.totalTime = totalTime;
+        this.countDown = totalTime;
+        this.timer = document.getElementById('time-count')
+        this.ticktok = document.getElementById('flips');
+        this.soundControl = new SoundController();
+    }
+}
