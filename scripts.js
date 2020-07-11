@@ -55,6 +55,8 @@ class FindAMatch {
     cardFlip(card) {
         if (this.allowedToFlip(card)) {
             this.soundControl.flip();
+            this.totalClicks++;
+            this.ticktok.innerText = this.totalClicks;
         }
     }
     allowedToFlip(card) {
