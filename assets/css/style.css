@@ -65,12 +65,12 @@ body {
   transition: transform .25s ease-in-out;
 }
 
-.card.visible .back-card {
-  transform: rotateY(-180deg);
+.card.visible .front-card{
+  transform: rotateY(0);
 }
 
-.card.visible .front-card {
-  transform: rotateY(0);
+.card.visible .back-card{
+    transform: rotateY(-180deg);
 }
 
 .front-card,
@@ -83,12 +83,6 @@ body {
     height: 100%;
     background: hsl(39, 92%, 44%);
     backface-visibility: hidden;
-    transition: transform 500ms ease-in-out;
-}
-
-.back-card:hover {
-    transform: scale(1.1);
-    transition: 5s ease-in-out;
 }
 
 /* ----------------Overlay Contents (Credits: Influenced based on research & Web Dev Simplified Tutorial)*/
