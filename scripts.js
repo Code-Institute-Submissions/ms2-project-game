@@ -53,6 +53,14 @@ class FindAMatch {
         this.matchedCards = [];
         this.busy = true;
 
+        //Delays game start time
+        setTimeout(() => {
+            this.soundControl.playMusic();
+            this.cardsShuffle(this.cardsArray);
+            this.timecount = this.startCountdown();
+            this.busy = false;
+        }, 500)
+
         this.cardsShuffle();
     }
 
