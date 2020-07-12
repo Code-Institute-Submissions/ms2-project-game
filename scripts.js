@@ -60,8 +60,14 @@ class FindAMatch {
             this.timecount = this.startCountdown();
             this.busy = false;
         }, 500)
-
-        this.cardsShuffle();
+        this.hideCards();
+        this.timer.innerText = this.countDown;
+        this.ticktok.innerText = this.totalClicks;
+    }
+    hideCards() {
+        this.cardsArray.forEach(card => {
+            card.classList.remove('visible');
+        });
     }
 
     //Allows player to flip cards
