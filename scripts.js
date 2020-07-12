@@ -93,6 +93,11 @@ class FindAMatch {
         this.soundControl.gameOver();
         document.getElementById('game-over-msg').classList.add('visible');
     }
+    winner() {
+        clearInterval(this.countDown);
+        this.soundControl.winner();
+        document.getElementById('winner-msg').classList.add('visible');
+    }
 
     // Fisher-Yates Shuffle Algorithm ~ Allow for cards shuffle
     cardsShuffle() {
