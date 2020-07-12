@@ -44,6 +44,7 @@ class FindAMatch {
         this.ticktok = document.getElementById('flips');
         this.soundControl = new SoundController();
     }
+    
     //Starts Game when called
     playGame() {
         this.totalClicks = 0;
@@ -51,7 +52,10 @@ class FindAMatch {
         this.verifyCard = null;
         this.matchedCards = [];
         this.busy = true;
+
+        this.cardsShuffle();
     }
+
     //Allows player to flip cards
     cardFlip(card) {
         if (this.allowedToFlip(card)) {
@@ -59,6 +63,15 @@ class FindAMatch {
             this.totalClicks++;
             this.ticktok.innerText = this.totalClicks;
             card.classList.add('visible');
+        }
+    }
+
+    // Fisher-Yates Shuffle Algorithm ~ Allow for cards shuffle
+    cardsShuffle() {
+        for(let i = this.cardsArray.length - 1; i > 0; i--) {
+            let randomInt = Math.floor(Math.random() * (i + 1));
+            this.cardsArray[randomInt].style.order = i;
+            this.cardsArray[i].style.order = randomInt;
         }
     }
 
@@ -74,7 +87,7 @@ if (document.readyState == 'loading') {
     ready();
 }
 
-   //To initialise game and overlays
+//To initialise game and overlays
 function ready() {
     let alloverlays = Array.from(document.getElementsByClassName('overlay-msg'));
     let cards = Array.from(document.getElementsByClassName('card'));
@@ -85,7 +98,6 @@ function ready() {
             overlay.classList.remove('visible');
              let soundControl = new SoundController();
             soundControl.playMusic();
-
             game.playGame();
         });
     });
