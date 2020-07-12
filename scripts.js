@@ -57,7 +57,7 @@ class FindAMatch {
         setTimeout(() => {
             this.soundControl.playMusic();
             this.cardsShuffle(this.cardsArray);
-            this.timecount = this.startCountdown();
+            this.timeCount = this.startCountdown();
             this.busy = false;
         }, 500)
         this.hideCards();
@@ -78,6 +78,15 @@ class FindAMatch {
             this.ticktok.innerText = this.totalClicks;
             card.classList.add('visible');
         }
+    }
+    //Starts Timer
+    startCountdown() {
+        return setInterval(() => {
+            this.countDown--;
+            this.timer.innerText = this.countDown;
+            if(this.countDown === 0)
+                this.gameOver();
+        }, 1000);
     }
 
     // Fisher-Yates Shuffle Algorithm ~ Allow for cards shuffle
@@ -105,7 +114,7 @@ if (document.readyState == 'loading') {
 function ready() {
     let alloverlays = Array.from(document.getElementsByClassName('overlay-msg'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new FindAMatch(120, cards);
+    let game = new FindAMatch(90, cards);
 
     alloverlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
