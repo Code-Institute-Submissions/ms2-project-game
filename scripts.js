@@ -77,6 +77,12 @@ class FindAMatch {
             this.totalClicks++;
             this.ticktok.innerText = this.totalClicks;
             card.classList.add('visible');
+
+            if(this.verifyCard) {
+                this.checkForCardMatch(card);
+            } else {
+                this.verifyCard = card;
+            }
         }
     }
     //Starts Timer
