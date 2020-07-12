@@ -85,6 +85,18 @@ class FindAMatch {
             }
         }
     }
+    checkForCardMatch(card) {
+        if(this.getCardType(card) === this.getCardType(this.verifyCard))
+            this.cardMatch(card, this.verifyCard);
+        else 
+            this.cardNotmatch(card, this.verifyCard);
+
+        this.verifyCard = null;
+    }
+
+    getCardType(card) {
+        return card.getElementsByClassName('card-value')[0].src;
+    }
     //Starts Timer
     startCountdown() {
         return setInterval(() => {
