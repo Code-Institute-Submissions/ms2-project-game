@@ -88,6 +88,11 @@ class FindAMatch {
                 this.gameOver();
         }, 1000);
     }
+    gameOver() {
+        clearInterval(this.countDown);
+        this.soundControl.gameOver();
+        document.getElementById('game-over-msg').classList.add('visible');
+    }
 
     // Fisher-Yates Shuffle Algorithm ~ Allow for cards shuffle
     cardsShuffle() {
@@ -114,7 +119,7 @@ if (document.readyState == 'loading') {
 function ready() {
     let alloverlays = Array.from(document.getElementsByClassName('overlay-msg'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new FindAMatch(90, cards);
+    let game = new FindAMatch(5, cards);
 
     alloverlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
