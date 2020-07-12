@@ -93,10 +93,10 @@ class FindAMatch {
 
         this.verifyCard = null;
     }
-
     getCardType(card) {
         return card.getElementsByClassName('card-value')[0].src;
     }
+
     //Starts Timer
     startCountdown() {
         return setInterval(() => {
@@ -107,14 +107,15 @@ class FindAMatch {
         }, 1000);
     }
     gameOver() {
-        clearInterval(this.countDown);
+        clearInterval(this.timeCount);
         this.soundControl.gameOver();
         document.getElementById('game-over-msg').classList.add('visible');
     }
     winner() {
-        clearInterval(this.countDown);
+        clearInterval(this.timeCount);
         this.soundControl.winner();
         document.getElementById('winner-msg').classList.add('visible');
+        this.hideCards();
     }
 
     // Fisher-Yates Shuffle Algorithm ~ Allow for cards shuffle
@@ -127,7 +128,7 @@ class FindAMatch {
     }
 
     allowedToFlip(card) {
-        return true;
+        return !this.busy && !this.matchedCards.includes(card) && card !== this.verifyCard;
     }
 }
 
@@ -142,7 +143,7 @@ if (document.readyState == 'loading') {
 function ready() {
     let alloverlays = Array.from(document.getElementsByClassName('overlay-msg'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new FindAMatch(5, cards);
+    let game = new FindAMatch(50, cards);
 
     alloverlays.forEach(overlay => {
         overlay.addEventListener('click', () => {

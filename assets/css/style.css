@@ -85,6 +85,11 @@ body {
     backface-visibility: hidden;
 }
 
+.card-value {
+  transition: transform 100ms ease-in-out;
+  transform: scale(.9);
+}
+
 /* ----------------Overlay Contents (Credits: Influenced based on research & Web Dev Simplified Tutorial)*/
 
 .overlay-msg {
