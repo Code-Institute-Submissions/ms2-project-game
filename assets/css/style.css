@@ -131,6 +131,10 @@ body {
     color: rgb(241, 75, 9);
 }
 
+#game-over-msg {
+    text-align: center;
+}
+
 #winner-msg {
     text-align: center;
 }
