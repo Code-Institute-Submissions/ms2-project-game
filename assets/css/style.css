@@ -16,7 +16,8 @@ body {
 }
 
 #play,
-#rules {
+#try,
+#replay {
     cursor: pointer;
 }
 
@@ -115,6 +116,18 @@ body {
 
 .overlay-msg-small {
     font-size: 0.7em;
+}
+
+#greetings {
+    text-align: center;
+    font-size: 0.5em;
+    color: rgb(241, 9, 9);
+}
+
+#rules {
+    text-align: center;
+    font-size: 0.4em;
+    color: rgb(241, 75, 9);
 }
 
 /* -----------------------------Footer (Credits: Influenced based on research & Code Institute)*/
