@@ -174,10 +174,13 @@ body {
         text-align: center;
     }
     #greetings {
-        font-size: 1em;
+        font-size: 2em;
     }
     #rules {
         font-size: 1em;
+    }
+    #play {
+        font-size: 2em;
     }
 }
 @media (min-height: 710px) {
