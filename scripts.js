@@ -93,6 +93,17 @@ class FindAMatch {
 
         this.verifyCard = null;
     }
+    cardMatch(card1, card2) {
+        this.matchedCards.push(card1);
+        this.matchedCards.push(card2);
+        card1.classList.add('matched');
+        card2.classList.add('matched');
+        this.soundControl.matched();
+        if(this.matchedCards.length === this.cardsArray.length)
+            
+        this.winner();
+    }
+
     getCardType(card) {
         return card.getElementsByClassName('card-value')[0].src;
     }
