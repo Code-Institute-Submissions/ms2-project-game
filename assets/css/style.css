@@ -116,11 +116,12 @@ body {
 
 .overlay-msg-small {
     font-size: 0.7em;
+    color: rgb(241, 9, 9);
 }
 
 #greetings {
     text-align: center;
-    font-size: 0.5em;
+    font-size: 0.7em;
     color: rgb(241, 9, 9);
 }
 
