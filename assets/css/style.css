@@ -168,7 +168,7 @@ body {
       align-items: center;
     }
 }
-/*-------------Overlay*/
+/*-------------Overlay (Credits: Influenced by Code Institute & personal research)*/
 @media (min-width: 1000px) {
     .overlay-msg {
         text-align: center;
