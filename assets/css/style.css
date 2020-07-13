@@ -131,6 +131,10 @@ body {
     color: rgb(241, 75, 9);
 }
 
+#winner-msg {
+    text-align: center;
+}
+
 /* -----------------------------Footer (Credits: Influenced based on research & Code Institute)*/
 
 .footer-label{
