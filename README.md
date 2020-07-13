@@ -32,6 +32,16 @@ The following technologies were used to achieve the requirements of this project
 + [Javascript](https://www.w3schools.com/js/)
   + I used this to achieve the interactive part of the game which helps the users have good fun on visiting the website.
   
+  
+  ## Testing
+For my testings, I carried out the following:
+
++ **Responsiveness Testing**
+1. During construction, I regularly test the site against its *Responsiveness* by clicking on **Inspect** to view the developer tool.
+2. I then check the layout by clicking on the Ipad, the Iphone and select other devices to view.
+3. I also adjusted the pane to view the point at which the design changes to a mobile, tablet, laptop or desktop view.
+4. This process helped me to adjust my media queries easily, in order to achieve my desired outcome.
+  
  
 
 
