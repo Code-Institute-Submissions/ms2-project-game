@@ -62,6 +62,14 @@ For my testings, I carried out the following:
 
 ## Deployment
 
+To deploy my site, I made use of the GitHub hosting platform; GitHub Pages following this process:
+1. I logged into [GitHub](https://github.com/).
+2. Under repositories, from the list of projects, I clicked on **Dorcas-Amoo/ms2-project-game** then **Settings**.
+3. Under **Settings**, I scrolled down to **GitHub Pages**.
+4. From **GitHub Pages**, under **Source**, I clicked on the *dropdown arrow button* and selected **master branch** from the list.
+5. Then on top of the **GitHub Pages** section, it states the following:
+  + Your site is published at https://dorcas-amoo.github.io/ms2-project-game/
+
 
 ## Credits & References
 
