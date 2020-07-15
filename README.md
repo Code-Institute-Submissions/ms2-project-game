@@ -72,23 +72,46 @@ To deploy my site, I made use of the GitHub hosting platform; GitHub Pages follo
 
 
 ## Credits & References
+From my research, the following made an impact in the successful completion of this project as it had been challenging yet enjoyable. I have also learnt a lot from completing the project. Please kindly see links below. Thank you.
 
 
 ### Content
-
++ [Google Fonts](https://fonts.google.com/)
+  + Ultra Font:https://fonts.google.com/specimen/Ultra?query=ultra
++ Styling: [https://css-tricks.com/]
++ The Game: [https://www.youtube.com/watch?v=28VfzEiJgy4&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17&t=0s ] 
+            [https://www.youtube.com/watch?v=3uuQ3g92oPQ&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17]
 
 + **Tutorials**
+  + Code Institute for HTML, CSS, JavaScript & UX: [https://courses.codeinstitute.net/program/FullstackWebDeveloper]
+  + Kyle-Web Dev Simplified for How to Code a Card Matching Game: [https://www.youtube.com/watch?v=28VfzEiJgy4&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17&t=0s ]
+  + PortEXE-How To Code A Card Game In Plain JavaScript-Spooky Halloween Edition: [https://www.youtube.com/watch?v=3uuQ3g92oPQ&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17]
+  + freeCodeCamp.org-Memory Card Game - JavaScript Tutorial: [https://www.youtube.com/watch?v=ZniVgo8U7ek&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=10&t=0s] 
+  + Marina-Ferreira: [https://marina-ferreira.github.io/projects/js/memory-game/]
 
 + **Others**
-
+  + [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines]
+  + [https://github.com/code-sketch/memory-game/]
+  + [https://filleben.github.io/F1MemoryGame/]
 
 ### Media
-
+The card images used for the game, the sounds incorporated and for my *Wireframes* were from the following:
++ [Balsamiq](https://balsamiq.com/)
++ [SoundBible](http://soundbible.com/suggest.php?q=tick&x=0&y=0/)
++ [Vecteezy](https://www.vecteezy.com/vector-art/266136-jesus-lettering-5)
++ [Clipart Library](http://clipart-library.com/free/jesus-christ-transparent.html)
 
 ### Acknowledgements
+I got inspiration for my project from the following:
++ [Code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
++ [Marina Ferreira](https://marina-ferreira.github.io/)
++ [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
++ [PortEXE](https://www.youtube.com/channel/UCjGQyJCSU_VVMTu5nigonqg)
++ [freeCodeCamp](https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/)
 
+Many thanks to my Mentor **Dick Vlaanderen** for his guidance despite the challenge of time difference. Also to my kid friends and family who helped to test the usability and functionality of the project and gave valuable feedbacks to assist in improving the site.
 
-  
+Thank you to the Code Institute Team!
 
 --------
 
