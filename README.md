@@ -1,10 +1,9 @@
 Welcome,
 
-This project was undertaken to create a memory game for Christian kids.
 
-## Kids Bible Memory Game
+# Kids Bible Memory Game
 
-The idea of creating this game was birthed from the passion for teaching children Bible truths. As a Sunday School teacher, I believe in "Catching Them Young"; that phrase brings back to memory the title of a school play I acted in at age 9. I strongly believe if we teach children good morals and Bible truths, they will grow up to become great and exceptional leaders in the future. I also find that kids can get bored quite quickly and there is the need to keep them constantly entertained. Therefore, I decided to create a simple memory game that will be suitable for kids between the ages of 2-10 years old.
+The idea of creating this game was birthed from the passion for teaching children Bible truths. Therefore, this project was undertaken to create a memory game for Christian kids. As a Sunday School teacher, I believe in "Catching Them Young"; (that phrase brings back to memory the title of a school play I acted in at age 9). I strongly believe if we teach children good morals and Bible truths, they will grow up to become great and exceptional leaders in the future. I also find that kids can get bored quite quickly and there is the need to keep them constantly entertained. Therefore, I decided to create a simple and easy to play memory game that will be suitable for kids between the ages of 2-10 years old.
 
 As this is an interactive and fun memory game to play, this will help parents, teachers, uncles, aunties, baby-sitters, carers and many more, as I believe this can be used as one of the many fundamental ways of engaging children wherever they are; home, school, church etc so as to reduce boredom and at the same time keep them mentally active as the game will help in exercising their brain.
 
@@ -14,13 +13,15 @@ Thank you and enjoy the ride. :rocket:
 
 This project is created to meet the needs of kids, parents, teachers, uncles, aunties, baby-sitters, carers and many more,. Below are a few _User Stories_.
 
-* 'As a kid and a potential user, on visiting your site, I want to be able to satisfy the desire to have some fun.'
+* 'As a kid and a potential user who feels bored, on visiting your site, I want to be able to satisfy the desire to have some form of fun by playing a simple and easy to use game.'
 
-* 'As a parent, I need an app that will suit my religious beliefs to help keep the kids well engaged and entertained.'
+* 'As a parent/carer, I need a game that will suit my Christian religious beliefs to help keep the kids engaged and entertained yet preserving our religious beliefs. I expect this game to be easy to understand so the kids can play independently'
 
-* 'As a Sunday School teacher, I need to be able to the kids engaged at playtime in Sunday School.'
+* 'As a Sunday School teacher, I need a game to help keep the kids engaged at playtime in Sunday School.'
 
-In order to meet the requirements of the users, I began to brainstorm on what to do and how to go about it and deliver the desired result. I then decided to create memory game so I searched and watched a few Youtube videos on how to. These helped me to have a clear understanding on how to construct the plan. I also looked at similar sites created by other code institute students which helped me to make an informed decision. Visiting other sites and watching tutorials really helped me to have a better idea and largely influenced my final decision and I am pleased with the outcome so far.  I also created the wireframe design of the website on Balsamiq (pdf file attached).
+* 'As a developer, I want to meet the above needs by creating a memory game where kids in the Christian category can have some fun by flipping cards to find all matching cards at a set timeframe and see how quickly they can beat the timer to win.'
+
+In order to meet the requirements of the users, I began to brainstorm on what to do and how to go about it and deliver the desired result. I then decided to create memory game so I searched and watched a few Youtube videos on how to. These helped me to have a clear understanding on how to construct the plan. I also looked at similar sites created by other code institute students which helped me to make an informed decision. Visiting other sites and watching tutorials really helped me to have a better idea and largely influenced my final decision and I am pleased with the outcome so far.  I also created the wireframe design of the website on Balsamiq (see file attached).
 
 ## Features
 
@@ -32,11 +33,15 @@ In order to meet the requirements of the users, I began to brainstorm on what to
 ## Technologies Used
 The following technologies were used to achieve the requirements of this project:
 
++ [Github](https://github.com/)
+  + Github was used as the project repository and site host. 
++ [Gitpod](https://www.gitpod.io/) 
+  +This was used to develop the site and [Git](https://git-scm.com/) for version control.
 + [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
   + CSS3 was used to sytle my website to my desired outcome.
 + [HTML5](https://en.wikipedia.org/wiki/HTML5)
   + HTML5 was used as the markup language to structure and present my website on the Web.
-+ [Javascript](https://www.w3schools.com/js/)
++ [Javascript](https://www.javascript.com/)
   + I used this to achieve the interactive part of the game which helps the users have good fun on visiting the website.
   
   
@@ -76,11 +81,10 @@ From my research, the following made an impact in the successful completion of t
 
 
 ### Content
-+ [Google Fonts](https://fonts.google.com/)
-  + Ultra Font:https://fonts.google.com/specimen/Ultra?query=ultra
-+ Styling: [https://css-tricks.com/]
-+ The Game: [https://www.youtube.com/watch?v=28VfzEiJgy4&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17&t=0s ] 
-            [https://www.youtube.com/watch?v=3uuQ3g92oPQ&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17]
++ [Google Fonts' Ultra font](https://fonts.google.com/specimen/Ultra?query=ultra)
++ [Styling](https://css-tricks.com/)
++ [The Game content, structure & style](https://www.youtube.com/watch?v=28VfzEiJgy4&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17&t=0s)
++ [The Game functionality](https://www.youtube.com/watch?v=3uuQ3g92oPQ&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17)
 
 + **Tutorials**
   + [Code Institute for HTML, CSS, JavaScript & UX](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
