@@ -83,16 +83,16 @@ From my research, the following made an impact in the successful completion of t
             [https://www.youtube.com/watch?v=3uuQ3g92oPQ&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17]
 
 + **Tutorials**
-  + Code Institute for HTML, CSS, JavaScript & UX: [https://courses.codeinstitute.net/program/FullstackWebDeveloper]
-  + Kyle-Web Dev Simplified for How to Code a Card Matching Game: [https://www.youtube.com/watch?v=28VfzEiJgy4&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17&t=0s ]
-  + PortEXE-How To Code A Card Game In Plain JavaScript-Spooky Halloween Edition: [https://www.youtube.com/watch?v=3uuQ3g92oPQ&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17]
-  + freeCodeCamp.org-Memory Card Game - JavaScript Tutorial: [https://www.youtube.com/watch?v=ZniVgo8U7ek&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=10&t=0s] 
-  + Marina-Ferreira: [https://marina-ferreira.github.io/projects/js/memory-game/]
+  + [Code Institute for HTML, CSS, JavaScript & UX](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
+  + [Kyle-Web Dev Simplified for How to Code a Card Matching Game](https://www.youtube.com/watch?v=28VfzEiJgy4&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17&t=0s)
+  + [PortEXE-How To Code A Card Game In Plain JavaScript-Spooky Halloween Edition](https://www.youtube.com/watch?v=3uuQ3g92oPQ&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17)
+  + [freeCodeCamp.org-Memory Card Game - JavaScript Tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=10&t=0s) 
+  + [Marina-Ferreira](https://marina-ferreira.github.io/projects/js/memory-game/)
 
 + **Others**
-  + [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines]
-  + [https://github.com/code-sketch/memory-game/]
-  + [https://filleben.github.io/F1MemoryGame/]
+  + [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)
+  + [Code Sketch](https://github.com/code-sketch/memory-game/)
+  + [F1 Memory Game](https://filleben.github.io/F1MemoryGame/)
 
 ### Media
 The card images used for the game, the sounds incorporated and for my *Wireframes* were from the following:
