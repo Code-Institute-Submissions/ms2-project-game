@@ -36,7 +36,7 @@ The following technologies were used to achieve the requirements of this project
 + [Github](https://github.com/)
   + Github was used as the project repository and site host. 
 + [Gitpod](https://www.gitpod.io/) 
-  +This was used to develop the site and [Git](https://git-scm.com/) for version control.
+  + This was used to develop the site and [Git](https://git-scm.com/) for version control.
 + [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
   + CSS3 was used to sytle my website to my desired outcome.
 + [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -81,8 +81,8 @@ From my research, the following made an impact in the successful completion of t
 
 
 ### Content
-+ [Google Fonts' Ultra font](https://fonts.google.com/specimen/Ultra?query=ultra)
-+ [Styling](https://css-tricks.com/)
++ [The Font by Google Fonts' Ultra](https://fonts.google.com/specimen/Ultra?query=ultra)
++ [The Game Styling](https://css-tricks.com/)
 + [The Game content, structure & style](https://www.youtube.com/watch?v=28VfzEiJgy4&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17&t=0s)
 + [The Game functionality](https://www.youtube.com/watch?v=3uuQ3g92oPQ&list=PLvaW2JKofl8_kI-vpd7lkSr-uY6fURbtq&index=17)
 
