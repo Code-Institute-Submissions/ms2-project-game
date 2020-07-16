@@ -161,13 +161,11 @@ if (document.readyState == 'loading') {
 function ready() {
     let alloverlays = Array.from(document.getElementsByClassName('overlay-msg'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new FindAMatch(40, cards);
+    let game = new FindAMatch(30, cards);
 
     alloverlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
             overlay.classList.remove('visible');
-             let soundControl = new SoundController();
-            soundControl.playMusic();
             game.playGame();
         });
     });
