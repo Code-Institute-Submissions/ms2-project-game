@@ -43,8 +43,9 @@ In order to meet the requirements of the users, I began to brainstorm on what to
  
 ### Features to be Implemented
 In order to expand the features of the game, I would like to implement the following in the future:
-i. Different levels
-ii. A Score board
+
+i. Different levels.
+ii. A Score board.
 iii. Add different versions to make the game more engaging.
 
 
