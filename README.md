@@ -9,6 +9,7 @@ As this is an interactive and fun memory game to play, this will help parents, t
 
 Thank you and enjoy the ride. :rocket:
 
+
 ## UX
 
 This project is created to meet the needs of kids, parents, teachers, uncles, aunties, baby-sitters, carers and many more,. Below are a few _User Stories_.
@@ -23,11 +24,28 @@ This project is created to meet the needs of kids, parents, teachers, uncles, au
 
 In order to meet the requirements of the users, I began to brainstorm on what to do and how to go about it and deliver the desired result. I then decided to create memory game so I searched and watched a few Youtube videos on how to. These helped me to have a clear understanding on how to construct the plan. I also looked at similar sites created by other code institute students which helped me to make an informed decision. Visiting other sites and watching tutorials really helped me to have a better idea and largely influenced my final decision and I am pleased with the outcome so far.  I also created the wireframe design of the website on Balsamiq (see file attached).
 
+
 ## Features
 
 ### Existing Features
-
+1. **Overlay:** This was used to display messages such as:
+  + The greeting ("Hey")
+  + The play link ("Genesis~Begin")
+  + The How To Play
+  + The Game Over ("Revelation")
+  + The Winner ("You're a Winner!")
+  + Try Again
+  + Restart
+2. **The Timer:** This counts down when the game starts.
+3. **The Flips Counter:** Counts and displays the number of times a player clicks on the cards.
+4. **The Board Game:** This is the card game area.
+5. **The Sound:** This includes the background music, flip sound, match sound when a player finds a match, game over sound and the winner sound depending on the actions taken by the player.
+ 
 ### Features to be Implemented
+In order to expand the features of the game, I would like to implement the following in the future:
+i. Different levels
+ii. A Score board
+iii. Add different versions to make the game more engaging.
 
 
 ## Technologies Used
