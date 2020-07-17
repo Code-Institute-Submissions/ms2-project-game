@@ -64,6 +64,7 @@ class FindAMatch {
         this.timer.innerText = this.countDown;
         this.ticktok.innerText = this.totalClicks;
     }
+    //Makes the card close after being flipped
     hideCards() {
         this.cardsArray.forEach(card => {
             card.classList.remove('visible');
@@ -85,6 +86,7 @@ class FindAMatch {
             }
         }
     }
+    //Checks if the cards match or not
     checkForCardMatch(card) {
         if(this.getCardType(card) === this.getCardType(this.verifyCard))
             this.cardMatch(card, this.verifyCard);
@@ -93,6 +95,7 @@ class FindAMatch {
 
         this.verifyCard = null;
     }
+    //Stores matched cards and called when they are a match
     cardMatch(card1, card2) {
         this.matchedCards.push(card1);
         this.matchedCards.push(card2);
@@ -103,6 +106,7 @@ class FindAMatch {
             
         this.winner();
     }
+    //Stores unmatched cards and called when they are not a match
      cardNotmatch(card1, card2) {
         this.busy = true;
         setTimeout(() => {
@@ -111,6 +115,7 @@ class FindAMatch {
             this.busy = false;
         }, 1000);
     }
+    //Called when the value of a card is required
     getCardType(card) {
         return card.getElementsByClassName('card-value')[0].src;
     }
@@ -124,11 +129,13 @@ class FindAMatch {
                 this.gameOver();
         }, 1000);
     }
+    //This is called when the game ends
     gameOver() {
         clearInterval(this.timeCount);
         this.soundControl.gameOver();
         document.getElementById('game-over-msg').classList.add('visible');
     }
+    //This is called when the player finds all matching cards
     winner() {
         clearInterval(this.timeCount);
         this.soundControl.winner();
@@ -144,7 +151,7 @@ class FindAMatch {
             this.cardsArray[i].style.order = randomInt;
         }
     }
-
+    //This stops or allows a player to flip a card when there is an ongoing activity or not
     allowedToFlip(card) {
         return !this.busy && !this.matchedCards.includes(card) && card !== this.verifyCard;
     }
