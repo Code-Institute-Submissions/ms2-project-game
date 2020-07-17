@@ -95,6 +95,12 @@ To deploy my site, I made use of the GitHub hosting platform; GitHub Pages follo
 4. From **GitHub Pages**, under **Source**, I clicked on the *dropdown arrow button* and selected **master branch** from the list.
 5. Then on top of the **GitHub Pages** section, it states the following:
   + Your site is published at https://dorcas-amoo.github.io/ms2-project-game/
+  
+To run code **locally**:
+1. From [GitHub](https://github.com/, click on the "Clone" button.
+2. Choose "Download Zip" (The download starts).
+3. After the download is complete, open the zip folder by double clicking to access created page.
+4. The page will launch on your chosen browser.
 
 
 ## Credits & References
