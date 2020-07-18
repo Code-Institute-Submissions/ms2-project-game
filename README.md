@@ -108,6 +108,11 @@ I carried out the following tests on these devices (Mobile, tablet, laptop):
 
 + **CSS3 and Browsers Testing**
 
+1. For my **CSS3 code testing**, I visited [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
+2. I chose *Validate by Direct Input* option, copied and pasted my CSS codes in the available pane and clicked **Check*
+3. I got the message "Congratulations! No errors found" (Evidence attached in the <>Code section above).
+4. For browser testings, I did not have any issues opening or viewing the site on the different browsers that was used namely: **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** and other different mobile browsers, namely, **Android** and **iOS.** On all of these platforms, I had a smooth user-friendly experience.
+
 + **JavaScript Testing**
 
 
