@@ -49,11 +49,11 @@ In order to meet the requirements of the users, I began to brainstorm on what to
 
 In order to expand the features of the game, I would like to implement the following in the future:
 
-  i. Different levels to make the game more challenging.
-  ii. A Score board for additional feedback.
-  iii. Add different versions to make the game more educative and engaging.
-  iv. A sound on/off feature.
-  v. A login option with personalised greeting.
+   i. Different levels to make the game more challenging.
+   ii. A Score board for additional feedback.
+   iii. Add different versions to make the game more educative and engaging.
+   iv. A sound on/off feature.
+   v. A login option with personalised greeting.
 
 
 ## Technologies Used
@@ -104,7 +104,7 @@ I carried out the following tests on these devices (Mobile, tablet, laptop):
  + Again, the **background music** starts, *timer and flips* reset. and the **timer** began counting down.
 
 + **UX Testing**
- + To validate the user experience, I asked a family member and two kids to help. They were asked to use the site so as to help give an unbias and accurate feedback.
+ To validate the user experience, I asked a family member and two kids to help. They were asked to use the site so as to help give an unbias and accurate feedback.
  
   1. They were to try using all the links, and play the game to test its functionality and usability.
  
