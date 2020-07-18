@@ -44,11 +44,14 @@ In order to meet the requirements of the users, I began to brainstorm on what to
 5. **The Sound:** This includes the background music, flip sound, match sound when a player finds a match, game over sound and the winner sound depending on the actions taken by the player.
  
 ### Features to be Implemented
+
 In order to expand the features of the game, I would like to implement the following in the future:
 
-i. Different levels.
-ii. A Score board.
-iii. Add different versions to make the game more engaging.
+ i. Different levels to make the game more challenging.
+ ii. A Score board for additional feedback.
+ iii. Add different versions to make the game more educative and engaging.
+ iv. A sound on/off feature.
+ v. A login option with personalised greeting.
 
 
 ## Technologies Used
@@ -99,6 +102,21 @@ I carried out the following tests on these devices (Mobile, tablet, laptop):
  + Again, the **background music** starts, *timer and flips* reset. and the **timer** began counting down.
 
 + **UX Testing**
+ + To validate the user experience, I asked a family member and two kids to help. They were asked to use the site so as to help give an unbias and accurate feedback.
+ 
+  1. They were to try using all the links, and play the game to test its functionality and usability.
+ 
+  2. They all came back with different feedbacks as follows:
+    + "I enjoyed the game."
+    + "It was easy to use."
+    + "It was fun."
+    + "I think the background music was very nice."
+    + "I think if there were sections of different games it will be more fun to play."
+    + "My personal thoughts is that it is fun, I really enjoyed it but I wanted that still be different sections."
+    + Overall, they were happy with the layout, colour scheme, responsiveness and easy access to the required information.
+    + Viewing on different sizes and browsers were also positive as expected.They were able to navigate easily.
+    + They commented that it was really easy to use and fun to play.
+    + They commented that they had no difficulty and their user experiences were positive.
 
 + **HTML5 Testing**
 
