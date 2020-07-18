@@ -3,6 +3,8 @@ Welcome,
 
 # Kids Bible Memory Game
 
+## [Visit Site](https://dorcas-amoo.github.io/ms2-project-game/)
+
 The idea of creating this game was birthed from the passion for teaching children Bible truths. Therefore, this project was undertaken to create a memory game for Christian kids. As a Sunday School teacher, I believe in "Catching Them Young"; (that phrase brings back to memory the title of a school play I acted in at age 9). I strongly believe if we teach children good morals and Bible truths, they will grow up to become great and exceptional leaders in the future. I also find that kids can get bored quite quickly and there is the need to keep them constantly entertained. Therefore, I decided to create a simple and easy to play memory game that will be suitable for kids between the ages of 2-10 years old.
 
 As this is an interactive and fun memory game to play, this will help parents, teachers, uncles, aunties, baby-sitters, carers and many more, as I believe this can be used as one of the many fundamental ways of engaging children wherever they are; home, school, church etc so as to reduce boredom and at the same time keep them mentally active as the game will help in exercising their brain.
@@ -22,7 +24,7 @@ This project is created to meet the needs of kids, parents, teachers, uncles, au
 
 * 'As a developer, I want to meet the above needs by creating a memory game where kids in the Christian category can have some fun by flipping cards to find all matching cards at a set timeframe and see how quickly they can beat the timer to win.'
 
-In order to meet the requirements of the users, I began to brainstorm on what to do and how to go about it and deliver the desired result. I then decided to create memory game so I searched and watched a few Youtube videos on how to. These helped me to have a clear understanding on how to construct the plan. I also looked at similar sites created by other code institute students which helped me to make an informed decision. Visiting other sites and watching tutorials really helped me to have a better idea and largely influenced my final decision and I am pleased with the outcome so far.  I also created the wireframe design of the website on Balsamiq (see file attached).
+In order to meet the requirements of the users, I began to brainstorm on what to do and how to go about it and deliver the desired result. I then decided to create memory game so I searched and watched a few Youtube videos on how to. These helped me to have a clear understanding on how to construct the plan. I also looked at similar sites created by other code institute students which helped me to make an informed decision. Visiting other sites and watching tutorials really helped me to have a better idea and largely influenced my final decision and I am pleased with the outcome so far.  I also created the wireframe design of the website on Balsamiq [see file attached](https://github.com/Dorcas-Amoo/ms2-project-game).
 
 
 ## Features
@@ -42,11 +44,14 @@ In order to meet the requirements of the users, I began to brainstorm on what to
 5. **The Sound:** This includes the background music, flip sound, match sound when a player finds a match, game over sound and the winner sound depending on the actions taken by the player.
  
 ### Features to be Implemented
+
 In order to expand the features of the game, I would like to implement the following in the future:
 
-i. Different levels.
-ii. A Score board.
-iii. Add different versions to make the game more engaging.
+  i. Different levels to make the game more challenging.
+  ii. A Score board for additional feedback.
+  iii. Add different versions to make the game more educative and engaging.
+  iv. A sound on/off feature.
+  v. A login option with personalised greeting.
 
 
 ## Technologies Used
@@ -65,23 +70,70 @@ The following technologies were used to achieve the requirements of this project
   
   
  ## Testing
-For my testings, I carried out the following:
+Over the course of building this project, I encountered a few challenging **bugs** which I was able to **fix** by asking relevant quetions and carrying out extensive research. This made it paramount for me to adopt the *defensive* approach and habitually carry out testings as I build the game (I made use of the **console.log** and viewed results in the **developer tool**) so as to ensure things work properly, and in addition to this, I carried out the following:
 
 + **Responsiveness Testing**
-1. During construction, I regularly test the site against its *Responsiveness* by clicking on **Inspect** to view the developer tool.
-2. I then check the layout by clicking on the Ipad, the Iphone and select other devices to view.
+1. During construction, I regularly test the site against its *Responsiveness* by clicking on **Inspect** to view the *developer tool*.
+2. I then checked the layout by clicking on the **Ipad, the Iphone and selected other devices to view**.
 3. I also adjusted the pane to view the point at which the design changes to a mobile, tablet, laptop or desktop view.
 4. This process helped me to adjust my media queries easily, in order to achieve my desired outcome.
 
 + **Page Testing**
 
+I carried out the following tests on these devices (Mobile, tablet, laptop):
+
+ + Once the page loads, all contents were displayed as expected.
+ + I hovered and clicked on the **"Genesis~Begin"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
+ + I noticed on click, the **background music** starts and the **timer** began counting down.
+ + On clicking a card, card turns and the **flips** count started.
+ + As card *flips*, the *flip sound plays*.
+ + On clicking two *unmatched cards* both cards flips over.
+ + I clicked on another card immediately but no flip occurred as expected.
+ + On clicking two *matched cards*, the *matched sound plays*, the cards *stay unflipped* and another card could be successfully clicked.
+ + On playing the game and as the *timer runs out*, the **"Revelation~Game Over" "Try Again"** overlay message popped up.
+ + Once the game was over, the *background music stops* and the *game over sound plays*.
+ + I hovered and clicked on the **"Try Again"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
+ + I noticed on click, the **background music** starts and the **timer** began counting down.
+ + Once all matching cards were found *within the timeframe*, all cards stay unflipped and the **"You're a Winner!" "Well Done!" "Replay"** message pops up.
+ + Once the game was successfully completed, the *background music stops* and the *winner applause sound plays*.
+ + I noticed the *timer* stops and displays remaining time, the *flips* also stops and displays the number of flips as expected.
+ + I also noticed once the *"You're a Winner!" "Well Done!" "Replay"* message pops up, and all cards flip over as expected.
+ + I hovered and clicked on the **"Replay"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
+ + Again, the **background music** starts, *timer and flips* reset. and the **timer** began counting down.
+
 + **UX Testing**
+ + To validate the user experience, I asked a family member and two kids to help. They were asked to use the site so as to help give an unbias and accurate feedback.
+ 
+  1. They were to try using all the links, and play the game to test its functionality and usability.
+ 
+  2. They all came back with different feedbacks as follows:
+      + "I enjoyed the game."
+      + "It was easy to use."
+      + "It was fun."
+      + "I think the background music was very nice."
+      + "I think if there were sections of different games it will be more fun to play."
+      + "My personal thoughts is that it is fun, I really enjoyed it but I wanted that still be different sections."
+      + Overall, they were happy with the layout, colour scheme, responsiveness and easy access to the required information.
+      + Viewing on different sizes and browsers were also positive as expected.They were able to navigate easily.
+      + They commented that it was really easy to use and fun to play.
+      + They commented that they had no difficulty and their user experiences were positive.
 
 + **HTML5 Testing**
 
+1. For my **HTML5 code testing**, I visited [The W3C Markup Validation Service](https://validator.w3.org/)
+2. I chose *Validate by Direct Input* option, copied and pasted my HTML codes in the available pane and clicked **Check*
+3. I then got a message stating, "Document checking completed. No errors or warnings to show". (Please refer to [<>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) for sample evidence).
+
 + **CSS3 and Browsers Testing**
 
+1. For my **CSS3 code testing**, I visited [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
+2. I chose *Validate by Direct Input* option, copied and pasted my CSS codes in the available pane and clicked **Check*
+3. I got the message "Congratulations! No errors found" (Evidence attached in the [<>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) above).
+4. For browser testings, I did not have any issues opening or viewing the site on the different browsers that was used namely: **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** and other different mobile browsers, namely, **Android** and **iOS.** On all of these platforms, I had a smooth user-friendly experience.
+
 + **JavaScript Testing**
+
+Given the scope of this project and the complexity and challenge of using the Jasmine automated testing, I adopted the manual and user testings as seen above to test the functionality of the JavaScript codes. 
 
 
 ## Deployment
@@ -93,6 +145,12 @@ To deploy my site, I made use of the GitHub hosting platform; GitHub Pages follo
 4. From **GitHub Pages**, under **Source**, I clicked on the *dropdown arrow button* and selected **master branch** from the list.
 5. Then on top of the **GitHub Pages** section, it states the following:
   + Your site is published at https://dorcas-amoo.github.io/ms2-project-game/
+  
+To run code **locally**:
+1. From [GitHub](https://github.com/), click on the "Clone" button.
+2. Choose "Download Zip" (The download starts).
+3. After the download is complete, open the zip folder by double clicking to access created page.
+4. The page will launch on your chosen browser.
 
 
 ## Credits & References
