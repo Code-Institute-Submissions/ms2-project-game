@@ -26,7 +26,7 @@ This project is created to meet the needs of kids, parents, teachers, uncles, au
 
 * 'As a developer, I want to meet the above needs by creating a memory game where kids in the Christian category can have some fun by flipping cards to find all matching cards at a set timeframe and see how quickly they can beat the timer to win.'
 
-In order to meet the requirements of the users, I began to brainstorm on what to do and how to go about it and deliver the desired result. I then decided to create memory game so I searched and watched a few Youtube videos on how to. These helped me to have a clear understanding on how to construct the plan. I also looked at similar sites created by other code institute students which helped me to make an informed decision. Visiting other sites and watching tutorials really helped me to have a better idea and largely influenced my final decision and I am pleased with the outcome so far.  I also created the wireframe design of the website on Balsamiq [see file attached](https://github.com/Dorcas-Amoo/ms2-project-game).
+In order to meet the requirements of the users, I began to brainstorm on what to do and how to go about it and deliver the desired result. I then decided to create memory game so I searched and watched a few Youtube videos on how to. These helped me to have a clear understanding on how to construct the plan. I also looked at similar sites created by other code institute students which helped me to make an informed decision. Visiting other sites and watching tutorials really helped me to have a better idea and largely influenced my final decision and I am pleased with the outcome so far.  I also created the wireframe design of the website on Balsamiq [see file attached under UXdesigns folder](https://github.com/Dorcas-Amoo/ms2-project-game).
 
 
 ## Features
@@ -49,11 +49,11 @@ In order to meet the requirements of the users, I began to brainstorm on what to
 
 In order to expand the features of the game, I would like to implement the following in the future:
 
-   i. Different levels to make the game more challenging.
-   ii. A Score board for additional feedback.
-   iii. Add different versions to make the game more educative and engaging.
-   iv. A sound on/off feature.
-   v. A login option with personalised greeting.
+   I) Different levels to make the game more challenging.
+   II) A Score board for additional feedback.
+   III) Add different versions to make the game more educative and engaging.
+   IV) A sound on/off feature.
+   V) A login option with personalised greeting.
 
 
 ## Technologies Used
@@ -102,6 +102,7 @@ I carried out the following tests on these devices (Mobile, tablet, laptop):
  + I also noticed once the *"You're a Winner!" "Well Done!" "Replay"* message pops up, and all cards flip over as expected.
  + I hovered and clicked on the **"Replay"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
  + Again, the **background music** starts, *timer and flips* reset. and the **timer** began counting down.
+ + Above all, I noticed cards reshuffles each time as the game starts or restarts.
 
 + **UX Testing**
   + To validate the user experience, I asked a family member and two kids to help. They were asked to use the site so as to help give an unbias and accurate feedback.
@@ -119,18 +120,19 @@ I carried out the following tests on these devices (Mobile, tablet, laptop):
      + Viewing on different sizes and browsers were also positive as expected.They were able to navigate easily.
      + They commented that it was really easy to use and fun to play.
      + They commented that they had no difficulty and their user experiences were positive.
+     + However, someone commented on the Page title colour as I initially used a grayish color; this prompted me to change it to the Blue which now coordinates well with the            colour-scheme.
 
 + **HTML5 Testing**
 
 1. For my **HTML5 code testing**, I visited [The W3C Markup Validation Service](https://validator.w3.org/)
 2. I chose *Validate by Direct Input* option, copied and pasted my HTML codes in the available pane and clicked **Check*
-3. I then got a message stating, "Document checking completed. No errors or warnings to show". (Please refer to [<>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) for sample evidence).
+3. I then got a message stating, "Document checking completed. No errors or warnings to show". (Please refer to [Testing folder in <>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) for sample evidence).
 
 + **CSS3 and Browsers Testing**
 
 1. For my **CSS3 code testing**, I visited [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
 2. I chose *Validate by Direct Input* option, copied and pasted my CSS codes in the available pane and clicked **Check*
-3. I got the message "Congratulations! No errors found" (Evidence attached in the [<>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) above).
+3. I got the message "Congratulations! No errors found" (Evidence attached in the [Testing folder in <>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) above).
 4. For browser testings, I did not have any issues opening or viewing the site on the different browsers that was used namely: **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** and other different mobile browsers, namely, **Android** and **iOS.** On all of these platforms, I had a smooth user-friendly experience.
 
 + **JavaScript Testing**
