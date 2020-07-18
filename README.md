@@ -3,6 +3,8 @@ Welcome,
 
 # Kids Bible Memory Game
 
+![Page Screenshot](ms2-project-game/assets/img/sitescreenshot.png)
+
 ## [Visit Site](https://dorcas-amoo.github.io/ms2-project-game/)
 
 The idea of creating this game was birthed from the passion for teaching children Bible truths. Therefore, this project was undertaken to create a memory game for Christian kids. As a Sunday School teacher, I believe in "Catching Them Young"; (that phrase brings back to memory the title of a school play I acted in at age 9). I strongly believe if we teach children good morals and Bible truths, they will grow up to become great and exceptional leaders in the future. I also find that kids can get bored quite quickly and there is the need to keep them constantly entertained. Therefore, I decided to create a simple and easy to play memory game that will be suitable for kids between the ages of 2-10 years old.
