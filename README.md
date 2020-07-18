@@ -102,6 +102,7 @@ I carried out the following tests on these devices (Mobile, tablet, laptop):
  + I also noticed once the *"You're a Winner!" "Well Done!" "Replay"* message pops up, and all cards flip over as expected.
  + I hovered and clicked on the **"Replay"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
  + Again, the **background music** starts, *timer and flips* reset. and the **timer** began counting down.
+ + Above all, I noticed cards reshuffles each time as the game starts or restarts.
 
 + **UX Testing**
   + To validate the user experience, I asked a family member and two kids to help. They were asked to use the site so as to help give an unbias and accurate feedback.
@@ -119,6 +120,7 @@ I carried out the following tests on these devices (Mobile, tablet, laptop):
      + Viewing on different sizes and browsers were also positive as expected.They were able to navigate easily.
      + They commented that it was really easy to use and fun to play.
      + They commented that they had no difficulty and their user experiences were positive.
+     + However, someone commented on the Page title colour as I initially used a grayish color; this prompted me to change it to the Blue which now coordinates well with the            colour-scheme.
 
 + **HTML5 Testing**
 
