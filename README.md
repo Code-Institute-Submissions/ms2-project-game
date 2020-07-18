@@ -49,11 +49,11 @@ In order to meet the requirements of the users, I began to brainstorm on what to
 
 In order to expand the features of the game, I would like to implement the following in the future:
 
-   i. Different levels to make the game more challenging.
-   ii. A Score board for additional feedback.
-   iii. Add different versions to make the game more educative and engaging.
-   iv. A sound on/off feature.
-   v. A login option with personalised greeting.
+   I) Different levels to make the game more challenging.
+   II) A Score board for additional feedback.
+   III) Add different versions to make the game more educative and engaging.
+   IV) A sound on/off feature.
+   V) A login option with personalised greeting.
 
 
 ## Technologies Used
