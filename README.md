@@ -104,21 +104,21 @@ I carried out the following tests on these devices (Mobile, tablet, laptop):
  + Again, the **background music** starts, *timer and flips* reset. and the **timer** began counting down.
 
 + **UX Testing**
- To validate the user experience, I asked a family member and two kids to help. They were asked to use the site so as to help give an unbias and accurate feedback.
+  + To validate the user experience, I asked a family member and two kids to help. They were asked to use the site so as to help give an unbias and accurate feedback.
  
-  1. They were to try using all the links, and play the game to test its functionality and usability.
+   1. They were to try using all the links, and play the game to test its functionality and usability.
  
-  2. They all came back with different feedbacks as follows:
-      + "I enjoyed the game."
-      + "It was easy to use."
-      + "It was fun."
-      + "I think the background music was very nice."
-      + "I think if there were sections of different games it will be more fun to play."
-      + "My personal thoughts is that it is fun, I really enjoyed it but I wanted that still be different sections."
-      + Overall, they were happy with the layout, colour scheme, responsiveness and easy access to the required information.
-      + Viewing on different sizes and browsers were also positive as expected.They were able to navigate easily.
-      + They commented that it was really easy to use and fun to play.
-      + They commented that they had no difficulty and their user experiences were positive.
+   2. They all came back with different feedbacks as follows:
+     + "I enjoyed the game."
+     + "It was easy to use."
+     + "It was fun."
+     + "I think the background music was very nice."
+     + "I think if there were sections of different games it will be more fun to play."
+     + "My personal thoughts is that it is fun, I really enjoyed it but I wanted that still be different sections."
+     + Overall, they were happy with the layout, colour scheme, responsiveness and easy access to the required information.
+     + Viewing on different sizes and browsers were also positive as expected.They were able to navigate easily.
+     + They commented that it was really easy to use and fun to play.
+     + They commented that they had no difficulty and their user experiences were positive.
 
 + **HTML5 Testing**
 
