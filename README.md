@@ -67,11 +67,11 @@ The following technologies were used to achieve the requirements of this project
   
   
  ## Testing
-For my testings, I carried out the following:
+Over the course of building this project, I encountered a few challenging **bugs** which I was able to **fix** by asking relevant quetions and carrying out extensive research. This made it paramount for me to adopt the *defensive* approach and habitually carry out testings as I build the game (I made use of the **console.log** and viewed results in the **developer tool**) so as to ensure things work properly, and in addition to this, I carried out the following:
 
 + **Responsiveness Testing**
-1. During construction, I regularly test the site against its *Responsiveness* by clicking on **Inspect** to view the developer tool.
-2. I then checked the layout by clicking on the Ipad, the Iphone and selected other devices to view.
+1. During construction, I regularly test the site against its *Responsiveness* by clicking on **Inspect** to view the *developer tool*.
+2. I then checked the layout by clicking on the **Ipad, the Iphone and selected other devices to view**.
 3. I also adjusted the pane to view the point at which the design changes to a mobile, tablet, laptop or desktop view.
 4. This process helped me to adjust my media queries easily, in order to achieve my desired outcome.
 
@@ -114,6 +114,8 @@ I carried out the following tests on these devices (Mobile, tablet, laptop):
 4. For browser testings, I did not have any issues opening or viewing the site on the different browsers that was used namely: **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** and other different mobile browsers, namely, **Android** and **iOS.** On all of these platforms, I had a smooth user-friendly experience.
 
 + **JavaScript Testing**
+
+Given the scope of this project and the complexity and challenge of using the Jasmine automated testing, I adopted the manual and user testings as seen above to test the functionality of the JavaScript codes. 
 
 
 ## Deployment
