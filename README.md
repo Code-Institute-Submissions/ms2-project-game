@@ -3,7 +3,7 @@ Welcome,
 
 # Kids Bible Memory Game
 
-![Page Screenshot](ms2-project-game/assets/img/sitescreenshot.png)
+![Page Screenshot](assets/img/sitescreenshot.png)
 
 ## [Visit Site](https://dorcas-amoo.github.io/ms2-project-game/)
 
