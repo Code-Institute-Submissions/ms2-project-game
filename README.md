@@ -76,30 +76,35 @@ For my testings, I carried out the following:
 4. This process helped me to adjust my media queries easily, in order to achieve my desired outcome.
 
 + **Page Testing**
+
 I carried out the following tests on these devices (Mobile, tablet, laptop):
 
-+ Once the page loads, all contents were displayed as expected.
-+ I hovered and clicked on the **"Genesis~Begin"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
-+ I noticed on click, the **background music** starts and the **timer** began counting down.
-+ On clicking a card, card turns and the **flips** count started.
-+ As card *flips*, the *flip sound plays*.
-+ On clicking two *unmatched cards* both cards flips over.
-+ I clicked on another card immediately but no flip occurred as expected.
-+ On clicking two *matched cards*, the *matched sound plays*, the cards *stay unflipped* and another card could be successfully clicked.
-+ On playing the game and as the *timer runs out*, the **"Revelation~Game Over" "Try Again"** overlay message popped up.
-+ Once the game was over, the *background music stops* and the *game over sound plays*.
-+ I hovered and clicked on the **"Try Again"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
-+ I noticed on click, the **background music** starts and the **timer** began counting down.
-+ Once all matching cards were found *within the timeframe*, all cards stay unflipped and the **"You're a Winner!" "Well Done!" "Replay"** message pops up.
-+ Once the game was successfully completed, the *background music stops* and the *winner applause sound plays*.
-+ I noticed the *timer* stops and displays remaining time, the *flips* also stops and displays the number of flips as expected.
-+ I also noticed once the *"You're a Winner!" "Well Done!" "Replay"* message pops up, and all cards flip over as expected.
-+ I hovered and clicked on the **"Replay"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
-+ Again, the **background music** starts, *timer and flips* reset. and the **timer** began counting down.
+ + Once the page loads, all contents were displayed as expected.
+ + I hovered and clicked on the **"Genesis~Begin"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
+ + I noticed on click, the **background music** starts and the **timer** began counting down.
+ + On clicking a card, card turns and the **flips** count started.
+ + As card *flips*, the *flip sound plays*.
+ + On clicking two *unmatched cards* both cards flips over.
+ + I clicked on another card immediately but no flip occurred as expected.
+ + On clicking two *matched cards*, the *matched sound plays*, the cards *stay unflipped* and another card could be successfully clicked.
+ + On playing the game and as the *timer runs out*, the **"Revelation~Game Over" "Try Again"** overlay message popped up.
+ + Once the game was over, the *background music stops* and the *game over sound plays*.
+ + I hovered and clicked on the **"Try Again"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
+ + I noticed on click, the **background music** starts and the **timer** began counting down.
+ + Once all matching cards were found *within the timeframe*, all cards stay unflipped and the **"You're a Winner!" "Well Done!" "Replay"** message pops up.
+ + Once the game was successfully completed, the *background music stops* and the *winner applause sound plays*.
+ + I noticed the *timer* stops and displays remaining time, the *flips* also stops and displays the number of flips as expected.
+ + I also noticed once the *"You're a Winner!" "Well Done!" "Replay"* message pops up, and all cards flip over as expected.
+ + I hovered and clicked on the **"Replay"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
+ + Again, the **background music** starts, *timer and flips* reset. and the **timer** began counting down.
 
 + **UX Testing**
 
 + **HTML5 Testing**
+
+1. For my **HTML5 code testing**, I visited [The W3C Markup Validation Service](https://validator.w3.org/)
+2. I chose *Validate by Direct Input* option, copied and pasted my HTML codes in the available pane and clicked **Check*
+3. I then got a message stating, "Document checking completed. No errors or warnings to show". (Please refer to <>Code section for sample evidence).
 
 + **CSS3 and Browsers Testing**
 
