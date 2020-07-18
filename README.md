@@ -137,7 +137,7 @@ I carried out the following tests on these devices (Mobile, tablet, laptop):
 
 + **JavaScript Testing**
 
-Given the scope of this project and the complexity and challenge of using the Jasmine automated testing, I adopted the manual and user testings as seen above to test the functionality of the JavaScript codes. 
+Given the scope of this project and the complexity and challenge of using the Jasmine automated testing, I adopted the manual and user testings as seen above to test the functionality of the JavaScript codes. I also used [JSHint](https://jshint.com/) to check my code; (Evidence attached in the [Testing folder in <>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) above). I did not make any changes to my code after validation as I am happy with it's functionality. 
 
 
 ## Deployment
