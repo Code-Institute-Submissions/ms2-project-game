@@ -26,7 +26,7 @@ This project is created to meet the needs of kids, parents, teachers, uncles, au
 
 * 'As a developer, I want to meet the above needs by creating a memory game where kids in the Christian category can have some fun by flipping cards to find all matching cards at a set timeframe and see how quickly they can beat the timer to win.'
 
-In order to meet the requirements of the users, I began to brainstorm on what to do and how to go about it and deliver the desired result. I then decided to create memory game so I searched and watched a few Youtube videos on how to. These helped me to have a clear understanding on how to construct the plan. I also looked at similar sites created by other code institute students which helped me to make an informed decision. Visiting other sites and watching tutorials really helped me to have a better idea and largely influenced my final decision and I am pleased with the outcome so far.  I also created the wireframe design of the website on Balsamiq [see file attached under UXdesigns folder](https://github.com/Dorcas-Amoo/ms2-project-game).
+In order to meet the requirements of the users, I began to brainstorm on what to do and how to go about it and deliver the desired result. I then decided to create memory game so I searched and watched a few Youtube videos on how to. These helped me to have a clear understanding on how to construct the plan. I also looked at similar sites created by other code institute students which helped me to make an informed decision. Visiting other sites and watching tutorials really helped me to have a better idea and largely influenced my final decision and I am pleased with the outcome so far.  I also created the wireframe design of the website on Balsamiq [see file attached under uxdesigns folder](https://github.com/Dorcas-Amoo/ms2-project-game).
 
 
 ## Features
@@ -126,18 +126,18 @@ I carried out the following tests on these devices (Mobile, tablet, laptop):
 
 1. For my **HTML5 code testing**, I visited [The W3C Markup Validation Service](https://validator.w3.org/)
 2. I chose *Validate by Direct Input* option, copied and pasted my HTML codes in the available pane and clicked **Check*
-3. I then got a message stating, "Document checking completed. No errors or warnings to show". (Please refer to [Testing folder in <>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) for sample evidence).
+3. I then got a message stating, "Document checking completed. No errors or warnings to show". (Please refer to [testing folder in <>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) for sample evidence).
 
 + **CSS3 and Browsers Testing**
 
 1. For my **CSS3 code testing**, I visited [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
 2. I chose *Validate by Direct Input* option, copied and pasted my CSS codes in the available pane and clicked **Check*
-3. I got the message "Congratulations! No errors found" (Evidence attached in the [Testing folder in <>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) above).
+3. I got the message "Congratulations! No errors found" (Evidence attached in the [testing folder in <>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) above).
 4. For browser testings, I did not have any issues opening or viewing the site on the different browsers that was used namely: **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** and other different mobile browsers, namely, **Android** and **iOS.** On all of these platforms, I had a smooth user-friendly experience.
 
 + **JavaScript Testing**
 
-Given the scope of this project and the complexity and challenge of using the Jasmine automated testing, I adopted the manual and user testings as seen above to test the functionality of the JavaScript codes. I also used [JSHint](https://jshint.com/) to check my code; (Evidence attached in the [Testing folder in <>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) above). I did not make any changes to my code after validation as I am happy with it's functionality. 
+Given the scope of this project and the complexity and challenge of using the Jasmine automated testing, I adopted the manual and user testings as seen above to test the functionality of the JavaScript codes. I also used [JSHint](https://jshint.com/) to check my code; (Evidence attached in the [testing folder in <>Code section](https://github.com/Dorcas-Amoo/ms2-project-game) above). I did not make any changes to my code after validation as I am happy with it's functionality. 
 
 
 ## Deployment
