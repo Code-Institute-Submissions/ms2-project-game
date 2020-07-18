@@ -71,11 +71,31 @@ For my testings, I carried out the following:
 
 + **Responsiveness Testing**
 1. During construction, I regularly test the site against its *Responsiveness* by clicking on **Inspect** to view the developer tool.
-2. I then check the layout by clicking on the Ipad, the Iphone and select other devices to view.
+2. I then checked the layout by clicking on the Ipad, the Iphone and selected other devices to view.
 3. I also adjusted the pane to view the point at which the design changes to a mobile, tablet, laptop or desktop view.
 4. This process helped me to adjust my media queries easily, in order to achieve my desired outcome.
 
 + **Page Testing**
+I carried out the following tests on these devices (Mobile, tablet, laptop):
+
++ Once the page loads, all contents were displayed as expected.
++ I hovered and clicked on the **"Genesis~Begin"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
++ I noticed on click, the **background music** starts and the **timer** began counting down.
++ On clicking a card, card turns and the **flips** count started.
++ As card *flips*, the *flip sound plays*.
++ On clicking two *unmatched cards* both cards flips over.
++ I clicked on another card immediately but no flip occurred as expected.
++ On clicking two *matched cards*, the *matched sound plays*, the cards *stay unflipped* and another card could be successfully clicked.
++ On playing the game and as the *timer runs out*, the **"Revelation~Game Over" "Try Again"** overlay message popped up.
++ Once the game was over, the *background music stops* and the *game over sound plays*.
++ I hovered and clicked on the **"Try Again"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
++ I noticed on click, the **background music** starts and the **timer** began counting down.
++ Once all matching cards were found *within the timeframe*, all cards stay unflipped and the **"You're a Winner!" "Well Done!" "Replay"** message pops up.
++ Once the game was successfully completed, the *background music stops* and the *winner applause sound plays*.
++ I noticed the *timer* stops and displays remaining time, the *flips* also stops and displays the number of flips as expected.
++ I also noticed once the *"You're a Winner!" "Well Done!" "Replay"* message pops up, and all cards flip over as expected.
++ I hovered and clicked on the **"Replay"** to ensure the cursor changes to the hand and the **overlay** hides to start the game.
++ Again, the **background music** starts, *timer and flips* reset. and the **timer** began counting down.
 
 + **UX Testing**
 
@@ -97,7 +117,7 @@ To deploy my site, I made use of the GitHub hosting platform; GitHub Pages follo
   + Your site is published at https://dorcas-amoo.github.io/ms2-project-game/
   
 To run code **locally**:
-1. From [GitHub](https://github.com/, click on the "Clone" button.
+1. From [GitHub](https://github.com/), click on the "Clone" button.
 2. Choose "Download Zip" (The download starts).
 3. After the download is complete, open the zip folder by double clicking to access created page.
 4. The page will launch on your chosen browser.
